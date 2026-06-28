@@ -1,0 +1,23 @@
+{
+  "model_name": "GPUTextMatcher",
+  "timestamp": "2026-06-27 00:16:58",
+  "gpu": "CPU",
+  "embed_dim": 128,
+  "hidden_dim": 256,
+  "num_layers": 2,
+  "bidirectional": true,
+  "dropout": 0.3,
+  "batch_size": 128,
+  "num_epochs": 5,
+  "learning_rate": 0.001,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0001,
+  "loss_function": "CrossEntropyLoss",
+  "max_length": 32,
+  "train_samples": 238142,
+  "val_samples": 8782,
+  "test_samples": 12464,
+  "training_time": 6296.107276916504,
+  "best_accuracy": 0.7947689345314506,
+  "best_f1": 0.7906705913002554
+}

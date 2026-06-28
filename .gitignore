@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# 数据文件 (如果数据太大)
+data/*.jsonl
+data/*.csv
+data/*.txt
+
+# 模型文件
+*.pt
+*.pth
+*.bin
+*.h5
+*.pb
+*.onnx
+
+# 日志文件
+*.log
+wandb/
+runs/
+logs/
+
+# 实验结果 (保留图表和汇总文件)
+results/best_model.pt
+results/*.pkl
+results/*.joblib
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 临时文件
+tmp/
+temp/
+.cache/
